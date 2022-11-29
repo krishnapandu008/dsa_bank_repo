@@ -44,4 +44,10 @@ public class ProductController {
 		ResponseEntity<String> responseEntity = new ResponseEntity<String>("From Remove", HttpStatus.OK);// 201-created (success+something created)
 		return responseEntity;
 	}
+	@DeleteMapping("/removeAll")
+	public ResponseEntity<String> removeProductsAll()
+	{
+		ResponseEntity<String> responseEntity = new ResponseEntity<String>("From Remove", HttpStatus.OK);// 201-created (success+something created)
+		return responseEntity;
+	}
 }
