@@ -9,9 +9,11 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-
+/*
+*  usecase
+*/
 @RestController
-@RequestMapping("/product") // optional
+@RequestMapping("/product") // optional  000000000000000
 public class ProductController {
 	private String name="Sravani";
 	@GetMapping("/all") // or we can give with out path also default it will take path as /
