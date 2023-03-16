@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 *  usecase
 */
 @RestController
-@RequestMapping("/product") // optional  00000000000000012345678
+@RequestMapping("/product") // optional  00000000000000012345678ooooooooooooooooooooooooooooooooooooooo
 public class ProductController {
 	private String name="Sravani";
 	@GetMapping("/all") // or we can give with out path also default it will take path as /
